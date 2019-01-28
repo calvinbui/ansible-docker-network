@@ -1,0 +1,8 @@
+---
+
+# Requires docker installed first
+
+- name: Create user-defined network
+  docker_network:
+    "{{ item }}"
+  loop: "{{ docker_networks }}"
