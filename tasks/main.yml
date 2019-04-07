@@ -15,7 +15,7 @@
 - name: Place the new interface in lower priorty in vm tools
   blockinfile:
     path: /etc/vmware-tools/tools.conf
-    marker: "<!-- {mark} ANSIBLE MANAGED BLOCK -->"
+    marker: "# {mark} ANSIBLE MANAGED BLOCK"
     block: |
       [guestinfo]
       low-priority-nics=br*
