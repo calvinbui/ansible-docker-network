@@ -20,3 +20,4 @@
       [guestinfo]
       low-priority-nics=br*
   when: vmware_tools_conf.stat.exists
+  notify: restart vmware-tools
