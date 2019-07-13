@@ -1,3 +1,8 @@
+[![Build Status](https://travis-ci.com/calvinbui/ansible-docker-network.svg?branch=master)](https://travis-ci.com/calvinbui/ansible-docker-network)
+![GitHub release](https://img.shields.io/github/release/calvinbui/ansible-docker-network.svg)
+![Ansible Quality Score](https://img.shields.io/ansible/quality/36601.svg)
+![Ansible Role](https://img.shields.io/ansible/role/d/36601.svg)
+
 # Ansible Docker Networking
 
 An Ansible role that creates a user-defined Docker networks
